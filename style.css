@@ -1,0 +1,336 @@
+body.home, body.A_Tracker {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+    background: #222;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+     
+}
+
+h1 {
+    text-align: left;
+    color: white;   
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgb(60, 124, 161);
+   
+    margin-top: 0px;
+    border-top-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+ }
+
+ .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: center;
+}
+
+.Title {
+    text-decoration: none;
+}
+
+/* ---------- */
+/* HOME PAGE */
+/* ---------- */
+
+.group-weather-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-block {
+    display: block;
+}
+
+.card, .advice, .air_card {
+    background: rgb(131, 200, 240);
+    /*#000000d0*/
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    max-width: 440px;
+    margin: 1em;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.search-button, .search-button-air, .search-loc {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%-100px);
+
+}
+
+button:hover{
+    background: #7c7c7c2b;
+    background-color: rgb(60, 124, 161)
+}
+
+h1.temp{
+    margin:0;
+    
+}
+.navMain {
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    border: 3px solid rgb(92, 186, 240);
+
+    margin-top: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 3px;
+    padding-top: 0px;
+    min-width: 800px;
+
+}
+
+
+.navMain a {
+    float: left;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 18px 18px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+.navMain a.color {
+    background-color:rgb(92, 186, 240);
+}
+
+.navMain a:hover  {
+    background-color: rgb(68, 178, 241);
+    color: white;}
+::placeholder {
+        color: rgba(10, 9, 9, 0.808);
+        text-align: center;
+        opacity: 1;
+    }
+
+.footer {
+    position: relative;
+  
+
+    width: 100%;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+
+/* ------------- */
+/* LOGIN PAGE */
+/* ------------- */
+
+.Login, .SignUp {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    border: 1px;
+    height: 20px;
+    width: 66px;
+    background: #7c7c7c2b;
+    color: white;
+    background: rgb(152, 212, 247);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+.username, .pword, .pword_check, .Fname, .Lname, .Email {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: center;
+
+    margin: auto;
+    width: 80%;
+    
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Username, .Pword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: center;
+
+    margin: auto;
+    width: 80%;
+    
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/* ------------- */
+/* SIGN UP PAGE */
+/* ------------- */
+
+.SignUpCard, .LoginCard {
+    margin-top: 30px;
+    background-color: rgb(131, 200, 240);
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+}
+
+.username {
+    margin-top: 40px;
+}
+
+.pword {
+    margin-bottom: 15px;
+}
+
+
+
+/* ----------- */
+/* AIR QUALITY */
+/* -----------*/
+.air {
+    color: white;
+}
+
+/* ---------- */
+/* AIR PAGE */
+/* ---------- */
+
+.air-card-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.location {
+    margin: 40px 0;
+
+}
+
+.lon-input, .lat-input {
+    border: none;
+    outline: none;
+    
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%-100px);
+
+}
+
+.c-value {
+    color: black;
+    flex: 2;
+    text-align: right;
+}
+
+.air-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 3px;
+    border-color: black;
+}
+  
+.c-name {
+    flex: 1;
+    margin-right: 10px;
+}
+  
+.air-status {
+    margin-right: 0.5em;
+}
+
+.location {
+    margin-top: 0;
+    margin-bottom: 0;
+}

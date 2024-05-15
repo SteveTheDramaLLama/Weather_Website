@@ -1,0 +1,56 @@
+body.news {
+    background-color: rgb(74, 113, 145);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+    
+}
+
+.newsCard, .adviceCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos{
+    background-color: rgb(71, 144, 192);
+    padding-top: 1em;
+    padding-left: 3em;
+    margin-top: 2em;
+    border-radius: 2em;
+    padding-right: 3em;
+}
+
+.other-advice, .newsMag {
+    background-color: rgb(117, 182, 220);
+    padding-top: 1em;
+    padding-left: 3em;
+    margin-top: 2em;
+    border-radius: 2em;
+    padding-right: 3em;
+
+}
+
+.news-group, .advice-group {
+    width: 40em;
+}
+
+.newsMag, .other-advice {
+    width: 20em;
+}
+.news-desc, .advice-desc {
+    display: block;
+}
+
+
+.video, .news-desc, .advice-desc {
+    display: block;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.group-vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
